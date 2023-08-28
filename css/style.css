@@ -1,13 +1,103 @@
-/* {
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
-}*/
+}
 
 header {
     background-image: url(/../img/pattern.png);
-    background-size: cover;
+    background-size: 36%;
     background-color: rgba(78,160,255,255);
-    width: 100%;
-    height: 270px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding-left: 10px;
+}
+
+.logo{
+    width: 20%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title span {
+    color: rgba(32,169,229,255);
+}
+
+.title p {
+    color: #818181;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+#title__date{
+    font-size: 12px;
+}
+
+.foto p{
+    font-size: 12px;
+}
+
+div, p, ul, table{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: disc inside;
+}
+
+table {
+    width: 99%;
+    text-align: left;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+thead tr{
+    background-color: #20a9e5;
+    color: white;
+}
+tbody tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
+
+#t {
+    width: 50%;
+}
+
+span.text__back__yellow{
+    background-color: yellow;
+}
+
+h3{
+    color: #818181;
+    margin-bottom: 10px;
+}
+
+.box_1, .box_2{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 300px;
+    height: 200px;
+    background-size: cover
+}
+
+.box_1 {
+    background-image: url(./../img/monitor.jpg);
+}
+
+.box_2 {
+    background-image: url(./../img/graph.jpg);
 }
