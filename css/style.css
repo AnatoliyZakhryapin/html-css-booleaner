@@ -70,7 +70,7 @@ tbody tr:nth-child(odd) {
     background-color: #b1e5f2;
 }
 
-#t {
+#row_table {
     width: 50%;
 }
 
